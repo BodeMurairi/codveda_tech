@@ -33,42 +33,44 @@ The goal of this repository is to:
 ```
 
 codveda-tech/
-(venv) (base) bode-murairi@bode-murairi-HP-ProBook-450-15-6-inch-G10-Notebook-PC:~/Documents/work/codveda_tech$ tree
-.
-├── advanced
-│   ├── encryption
-│   │   ├── file_encrypt.py
-│   │   └── file.txt
-│   └── n_queen
-│       ├── __init__.py
-│       └── main.py
-├── basic
-│   ├── calculator
-│   │   ├── __init__.py
-│   │   ├── main.py
-│   │   ├── project.md
-│   │   └── users.txt
-│   ├── number_guessing
-│   │   ├── __init__.py
-│   │   ├── number_guessing.py
-│   │   └── score.txt
-│   └── word_counter
-│       ├── file.txt
-│       ├── __init__.py
-│       └── word_counter.py
-├── intermediate
-│   ├── todo_list
-│   │   ├── __init__.py
-│   │   └── todo.py
-│   ├── weather_api
-│   │   ├── INSTRUCTIONS.md
-│   │   └── main.py
-│   └── web_scraper
-│       ├── __init__.py
-│       ├── README.md
-│       └── web_scraper.py
-├── README.md
+│
+├── basic/ 🟢
+│   ├── calculator/ 🖩
+│   │   ├── **init**.py
+│   │   ├── main.py
+│   │   ├── project.md
+│   │   └── users.txt
+│   ├── number_guessing/ 🎯
+│   │   ├── **init**.py
+│   │   ├── number_guessing.py
+│   │   └── score.txt
+│   └── word_counter/ 📄
+│       ├── **init**.py
+│       ├── word_counter.py
+│       └── file.txt
+│
+├── intermediate/ 🟡
+│   ├── todo_list/ ✅
+│   │   ├── **init**.py
+│   │   └── todo.py
+│   ├── weather_api/ 🌦
+│   │   ├── INSTRUCTIONS.md
+│   │   └── main.py
+│   └── web_scraper/ 🌐
+│       ├── **init**.py
+│       ├── web_scraper.py
+│       └── README.md
+│
+├── advanced/ 🔴
+│   ├── encryption/ 🔐
+│   │   ├── file_encrypt.py
+│   │   └── file.txt
+│   └── n_queen/ ♛
+│       ├── **init**.py
+│       └── main.py
+│
 ├── requirements.txt
+└── README.md
 
 ````
 
