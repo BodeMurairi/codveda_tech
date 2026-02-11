@@ -1,4 +1,4 @@
-Here’s an **updated and complete README** that includes **all your projects** in the repository, organized by difficulty level, with brief descriptions, features, and instructions. I’ve also included the **WeatherAPI note about API keys**.
+Perfect! Here’s a **full polished README.md** for your repository, with the improved repository structure, project descriptions, emojis, WeatherAPI instructions, and all the sections combined into one GitHub-ready file:
 
 ---
 
@@ -38,26 +38,54 @@ The goal of this repository is to:
 
 codveda-internship-technologies/
 │
-├── basic/
-│   ├── calculator/          # CLI Calculator with user authentication
-│   ├── number_guessing/     # Number guessing game with scoring and leaderboard
-│   └── word_counter/        # Word count program for text files
+├── basic/ 🟢
+│   ├── calculator/ 🖩
+│   │   ├── **init**.py
+│   │   ├── main.py
+│   │   ├── project.md
+│   │   └── users.txt
+│   ├── number_guessing/ 🎯
+│   │   ├── **init**.py
+│   │   ├── number_guessing.py
+│   │   └── score.txt
+│   └── word_counter/ 📄
+│       ├── **init**.py
+│       ├── word_counter.py
+│       └── file.txt
 │
-├── intermediate/
-│   ├── todo_list/           # CLI To-Do List application with JSON persistence
-│   ├── weather_api/         # CLI Weather App using WeatherAPI
-│   └── web_scraper/         # Web scraping script (sample)
+├── intermediate/ 🟡
+│   ├── todo_list/ ✅
+│   │   ├── **init**.py
+│   │   └── todo.py
+│   ├── weather_api/ 🌦
+│   │   ├── INSTRUCTIONS.md
+│   │   └── main.py
+│   └── web_scraper/ 🌐
+│       ├── **init**.py
+│       ├── web_scraper.py
+│       └── README.md
 │
-├── advanced/
-│   ├── encryption/          # File encryption/decryption using Caesar Cipher
-│   └── n_queen/             # N-Queens problem solver using backtracking
+├── advanced/ 🔴
+│   ├── encryption/ 🔐
+│   │   ├── file_encrypt.py
+│   │   └── file.txt
+│   └── n_queen/ ♛
+│       ├── **init**.py
+│       └── main.py
 │
 ├── requirements.txt
 └── README.md
 
 ````
 
-Each folder represents a **specific task or project** assigned during the internship.
+**Legend:**
+
+- 🟢 Basic Projects – beginner-level CLI tasks  
+- 🟡 Intermediate Projects – moderate complexity, API usage, JSON persistence  
+- 🔴 Advanced Projects – algorithms, encryption, backtracking  
+- 🖩 Calculator, 🎯 Number Guessing, 📄 Word Counter  
+- ✅ To-Do List, 🌦 Weather API, 🌐 Web Scraper  
+- 🔐 File Encryption, ♛ N-Queens Solver  
 
 ---
 
@@ -65,19 +93,19 @@ Each folder represents a **specific task or project** assigned during the intern
 
 ### 1️⃣ Basic Projects
 
-**Calculator** (`basic/calculator`)  
+**Calculator** (`basic/calculator`) 🖩  
 - CLI calculator with per-user authentication  
 - Supports +, −, ×, ÷ operations  
 - Stores calculation history per user in `users.txt`  
 - Password hashing using SHA-256  
 - Undo/clear functionality  
 
-**Number Guessing Game** (`basic/number_guessing`)  
+**Number Guessing Game** (`basic/number_guessing`) 🎯  
 - Guess a random number between 1 and 100  
 - Maximum of 3 trials per round  
 - Scores saved per session and leaderboard maintained in `score.txt`  
 
-**Word Counter** (`basic/word_counter`)  
+**Word Counter** (`basic/word_counter`) 📄  
 - Counts words in a given text file  
 - Demonstrates file reading and string manipulation  
 
@@ -85,19 +113,19 @@ Each folder represents a **specific task or project** assigned during the intern
 
 ### 2️⃣ Intermediate Projects
 
-**To-Do List** (`intermediate/todo_list`)  
+**To-Do List** (`intermediate/todo_list`) ✅  
 - CLI task manager  
 - Add, delete, mark as done, and list tasks  
 - Tasks stored in JSON file  
 - Error handling for invalid inputs  
 
-**Weather API CLI** (`intermediate/weather_api`)  
+**Weather API CLI** (`intermediate/weather_api`) 🌦  
 - Fetches live weather data for any city  
-- Displays temperature, humidity, wind speed, and more in a user-friendly format  
+- Displays temperature, humidity, wind speed, pressure, cloud cover, and more  
 - **Requires API key from [WeatherAPI](https://www.weatherapi.com/)**  
 - Steps:  
   1. Sign up and generate your API key on WeatherAPI  
-  2. Create a `.env` file with:  
+  2. Create a `.env` file in the project folder:  
      ```
      WEATHER_API_KEY=your_api_key_here
      ```  
@@ -106,7 +134,7 @@ Each folder represents a **specific task or project** assigned during the intern
      python main.py
      ```  
 
-**Web Scraper** (`intermediate/web_scraper`)  
+**Web Scraper** (`intermediate/web_scraper`) 🌐  
 - Scrapes data from websites  
 - Demonstrates HTML parsing and data extraction  
 
@@ -114,13 +142,13 @@ Each folder represents a **specific task or project** assigned during the intern
 
 ### 3️⃣ Advanced Projects
 
-**File Encryption/Decryption** (`advanced/encryption`)  
+**File Encryption/Decryption** (`advanced/encryption`) 🔐  
 - Encrypts/decrypts text files using **Caesar Cipher**  
 - Saves encrypted files with `.enc` extension  
 - Decrypted files saved with `.dec` extension  
 - CLI menu for easy operation  
 
-**N-Queens Problem Solver** (`advanced/n_queen`)  
+**N-Queens Problem Solver** (`advanced/n_queen`) ♛  
 - Solves the classic N-Queens problem using **backtracking**  
 - Displays solutions in a clear ASCII board format  
 - Allows user input for N (board size)  
@@ -180,11 +208,4 @@ python3 main.py
 Software Engineering Student
 Codveda Technologies – Intern
 
-```
-
----
-
-If you want, I can also **enhance this README with emojis and badges** for each project type and **add example outputs for all CLI apps** to make it **GitHub-ready and visually engaging**.  
-
-Do you want me to do that next?
 ```
